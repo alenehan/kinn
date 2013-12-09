@@ -2427,7 +2427,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebeeda', end
       var pieces3=pieces2[0].replace("https","http");
       localStorage.setItem("googURL", pieces3);
       localStorage.setItem("googTitle",pieces2[1]);
-      window.location.href = "index.html";
+      window.location.href = "http://www.kinnective.com/index.html";
    }else if(!kinnGoog.test(window.location.href)){
       if(localStorage.googURL){
         kinnGoogParams.url = localStorage.getItem("googURL");
@@ -3181,7 +3181,7 @@ var downloadedHTML="";
       });
       $('#seeHTMLBtn').on('click',function(e){
           if(localStorage.downloadedHTML){
-              var wind = window.open("downloadedBookmarks.html");
+              var wind = window.open("http://www.kinnective.com/downloadedBookmarks.html");
           }
       });
       $('#editorDown').on('click',function(e){
@@ -5914,7 +5914,7 @@ function renderCopiesView(){
                type:'GET',
                contentType: 'application/x-www-form-urlencoded',
                dataType:'html',
-               url:'kinnreg4bbb.html',
+               url:'http://www.kinnective.com/kinnreg4bbb.html',
                success: function(data) {
                   var k4=data;
                   $('#kinnreg4').html(k4);
@@ -5976,25 +5976,6 @@ function renderCopiesView(){
                }
          });
       };
-      function refreshKinnreg3(){
-               $.ajax({
-               type:'GET',
-               contentType: 'application/x-www-form-urlencoded',
-               dataType:'html',
-               url:'kinnreg3bb.html',
-               success: function(data) {
-                  var k3=data;
-                  $('#kinnreg3').html(k3);
-                  $('#kinnreg3').trigger('pagecreate');
-               },
-               error: function(jqXHR, textStatus, errorThrown) {
-                  createAlertBox("Network error 'k3'. Please try again later.");
-               },
-               complete: function(jqXHR, textStatus) {
-                  
-               }
-               });
-   }
    function createAlertBox(string){
       var alertBoxString='<div class="alertBox dataBarColor ui-corner-all"><a class="deleteAlert" data-role="button" data-mini="true" data-icon="delete" data-iconpos="notext" href="">Delete</a><div class="innerAlertBox"><span class="alertSpan"></span></div></div>';
       var dummyDiv=document.createElement('div');
@@ -6267,7 +6248,7 @@ this)});
               </div><!-- end of navbar -->
         </div><!--end of header above -->
  <!-- dan -->                
- <iframe SRC="anyblankpage.html" name="dummy" STYLE="display: none"></iframe>
+ <iframe SRC="http://www.kinnective.com/anyblankpage.html" name="dummy" STYLE="display: none"></iframe>
 <!-- dan -->
                      <div CLASS="contentContainer">
                      	<div id="signInForm" class="scrollable">
@@ -6769,7 +6750,7 @@ this)});
                                 </p>
                           </div><!--end of dataBarTitle-->
                           <div CLASS="arrowR">
-                               <a HREF="introduction.html" CLASS="arrowRBtn" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="a"></a><!-- end of arrowRBtn-->
+                               <a HREF="http://www.kinnective.com/introduction.html" CLASS="arrowRBtn" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="a"></a><!-- end of arrowRBtn-->
                          </div><!-- end of arrowR -->
                     </div><!--end of dataBar-->
                       <div CLASS="dataBar dataBarColor">
@@ -6779,7 +6760,7 @@ this)});
                                 </p>
                           </div><!--end of dataBarTitle-->
                           <div CLASS="arrowR">
-                               <a HREF="membership.html" CLASS="arrowRBtn" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="a"></a><!-- end of arrowRBtn-->
+                               <a HREF="http://www.kinnective.com/membership.html" CLASS="arrowRBtn" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="a"></a><!-- end of arrowRBtn-->
                          </div><!-- end of arrowR -->
                     </div><!--end of dataBar-->
                     <div CLASS="dataBar dataBarColor">
@@ -6789,7 +6770,7 @@ this)});
                                 </p>
                           </div><!--end of dataBarTitle-->
                           <div CLASS="arrowR">
-                               <a HREF="bookmarklet.html" CLASS="arrowRBtn" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="a"></a><!-- end of arrowRBtn-->
+                               <a HREF="http://www.kinnective.com/bookmarklet.html" CLASS="arrowRBtn" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="a"></a><!-- end of arrowRBtn-->
                          </div><!-- end of arrowR -->
                     </div><!--end of dataBar-->
                     <div CLASS="dataBar dataBarColor">
@@ -6799,7 +6780,7 @@ this)});
                                 </p>
                           </div><!--end of dataBarTitle-->
                           <div CLASS="arrowR">
-                               <a HREF="adding.html" CLASS="arrowRBtn" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="a"></a><!-- end of arrowRBtn-->
+                               <a HREF="http://www.kinnective.com/adding.html" CLASS="arrowRBtn" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="a"></a><!-- end of arrowRBtn-->
                          </div><!-- end of arrowR -->
                     </div><!--end of dataBar-->
                     <div CLASS="dataBar dataBarColor">
@@ -6809,7 +6790,7 @@ this)});
                                 </p>
                           </div><!--end of dataBarTitle-->
                           <div CLASS="arrowR">
-                               <a HREF="cutting.html" CLASS="arrowRBtn" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="a"></a><!-- end of arrowRBtn-->
+                               <a HREF="http://www.kinnective.com/cutting.html" CLASS="arrowRBtn" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="a"></a><!-- end of arrowRBtn-->
                          </div><!-- end of arrowR -->
                     </div><!--end of dataBar-->
                     <div CLASS="dataBar dataBarColor">
@@ -6819,7 +6800,7 @@ this)});
                                 </p>
                           </div><!--end of dataBarTitle-->
                           <div CLASS="arrowR">
-                               <a HREF="shuffling.html" CLASS="arrowRBtn" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="a"></a><!-- end of arrowRBtn-->
+                               <a HREF="http://www.kinnective.com/shuffling.html" CLASS="arrowRBtn" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="a"></a><!-- end of arrowRBtn-->
                          </div><!-- end of arrowR -->
                     </div><!--end of dataBar-->
                     <div CLASS="dataBar dataBarColor">
@@ -6829,7 +6810,7 @@ this)});
                                 </p>
                           </div><!--end of dataBarTitle-->
                           <div CLASS="arrowR">
-                               <a HREF="discussion.html" CLASS="arrowRBtn" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="a"></a><!-- end of arrowRBtn-->
+                               <a HREF="http://www.kinnective.com/discussion.html" CLASS="arrowRBtn" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="a"></a><!-- end of arrowRBtn-->
                          </div><!-- end of arrowR -->
                     </div><!--end of dataBar-->
                     <div CLASS="dataBar dataBarColor">
@@ -6839,7 +6820,7 @@ this)});
                                 </p>
                           </div><!--end of dataBarTitle-->
                           <div CLASS="arrowR">
-                               <a HREF="voting.html" CLASS="arrowRBtn" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="a"></a><!-- end of arrowRBtn-->
+                               <a HREF="http://www.kinnective.com/voting.html" CLASS="arrowRBtn" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="a"></a><!-- end of arrowRBtn-->
                          </div><!-- end of arrowR -->
                     </div><!--end of dataBar-->
                     <div CLASS="dataBar dataBarColor">
@@ -6849,7 +6830,7 @@ this)});
                                 </p>
                           </div><!--end of dataBarTitle-->
                           <div CLASS="arrowR">
-                               <a HREF="trust.html" CLASS="arrowRBtn" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="a"></a><!-- end of arrowRBtn-->
+                               <a HREF="http://www.kinnective.com/trust.html" CLASS="arrowRBtn" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="a"></a><!-- end of arrowRBtn-->
                          </div><!-- end of arrowR -->
                     </div><!--end of dataBar-->
                     <div CLASS="dataBar dataBarColor">
@@ -6859,7 +6840,7 @@ this)});
                                 </p>
                           </div><!--end of dataBarTitle-->
                           <div CLASS="arrowR">
-                               <a HREF="about.html" CLASS="arrowRBtn" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="a"></a><!-- end of arrowRBtn-->
+                               <a HREF="http://www.kinnective.com/about.html" CLASS="arrowRBtn" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="a"></a><!-- end of arrowRBtn-->
                          </div><!-- end of arrowR -->
                     </div><!--end of dataBar-->
                </div><!--end of helpListContainerCG-->
