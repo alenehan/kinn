@@ -685,6 +685,11 @@ float:right;
 	margin-left:auto;
 	padding:3px;
 }
+#regMain contentContainer
+{
+    width:94%;
+    margin:auto;
+}
 #signInP .pitch h2
 {
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
