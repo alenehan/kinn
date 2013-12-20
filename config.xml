@@ -3,7 +3,7 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.kinnective.main"
         versionCode = "10" 
-        version     = "1.0.2" >
+        version     = "1.0.3" >
 
     <!-- versionCode is optional and Android only -->
 
@@ -13,7 +13,7 @@
         The bookmarks manager for your mobile, social world. 
     </description>
 
-    <author href="https://build.phonegap.com" email="support@phonegap.com">
+    <author href="http://www.kinnective.com" email="ak@lenehan.org">
         Dan and Art Lenehan 
     </author>
     <icon src="icons/android/kinnldpi_launcher" gap:platform="android" gap:density="ldpi" />
