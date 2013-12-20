@@ -3,7 +3,7 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.kinnective.main"
         versionCode = "10" 
-        version     = "1.0.4" >
+        version     = "1.0.5" >
 
     <!-- versionCode is optional and Android only -->
 
@@ -16,9 +16,9 @@
     <author href="http://www.kinnective.com" email="ak@lenehan.org">
         Dan and Art Lenehan 
     </author>
-    <icon src="icons/android/kinnldpi_launcher" gap:platform="android" gap:density="ldpi" />
-    <icon src="icons/android/kinnmdpi_launcher" gap:platform="android" gap:density="mdpi" />
-    <icon src="icons/android/kinnhdpi_launcher" gap:platform="android" gap:density="hdpi" />
-    <icon src="icons/android/kinnxhdpi_launcher" gap:platform="android" gap:density="xhdpi" />
-    <icon src="icons/android/kinnxxhdpi_launcher" gap:platform="android" gap:density="xxhdpi" />
+    <icon src="icons/android/kinnldpi_launcher.png" gap:platform="android" gap:density="ldpi" />
+    <icon src="icons/android/kinnmdpi_launcher.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="icons/android/kinnhdpi_launcher.png" gap:platform="android" gap:density="hdpi" />
+    <icon src="icons/android/kinnxhdpi_launcher.png" gap:platform="android" gap:density="xhdpi" />
+    <icon src="icons/android/kinnxxhdpi_launcher.png" gap:platform="android" gap:density="xxhdpi" />
 </widget>
