@@ -3,11 +3,11 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.kinnective.main"
         versionCode = "10" 
-        version     = "1.0.6a" >
+        version     = "1.0.7" >
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Kinnective for Android Test1</name>
+    <name>Kinnective for Android Test2</name>
 
     <description>
         The bookmarks manager for your mobile, social world. 
