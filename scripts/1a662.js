@@ -220,9 +220,9 @@ var downloadedHTML="";
            contentType: 'application/x-www-form-urlencoded',
            dataType:'xml',
            url:'http://www.kinnective.com/kinnective4/fullway30e.php',
-               data:{
-                  command:"47"
-               },
+           data:{
+                  command:47
+           },
            success: function(data) {
               var getOursX=data;
               var tester=$(getOursX).find('status').text();
