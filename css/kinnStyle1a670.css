@@ -1511,6 +1511,240 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebeeda', end
 	background-image:none;
 }7
 }
+/*smaller nexus 7*/
+@media only screen and (min-height:950px) and (max-height:1000px) and (min-width:590px) and (max-width:600px)
+{
+.mainContainer
+{
+	margin-right:auto;
+	margin-left:auto;
+	width:550px;
+	height:850px;
+	border:none;
+	padding:0px; 
+	overflow:hidden;
+	background-color:#ffffff;
+	position:relative;
+}
+.arrowR
+{
+	position:absolute;
+	height:44px;
+	width:44x;	
+	top:8px;
+	left:440px;
+}
+#helpListContainerCG .arrowR
+{
+	top:7px;
+}
+#helpListContainerCG .dataBarTitle
+{
+	left:45px;
+	top:0px
+}
+#bookmarkScroller
+{
+	max-height:575px;	
+}
+#bookmarklet
+{
+	height:34px;
+}
+.breadCrumbs p 
+{
+	font-size:.9em;
+	color:#000;
+	margin:0px;
+	padding:0px;
+}
+#oursListContainer .checkBoxDiv
+	{
+		left:58px;	
+	}
+	#yoursListContainer .checkBoxDiv
+	{
+		left:58px;	
+	}
+	#copiesListContainer .checkBoxDiv
+	{
+		left:20px;	
+	}
+#searchListContainer .checkBoxDiv
+{
+	left:16px;	
+}
+.dataBar
+{
+	position:relative;
+	height:50px;
+	margin:0px;
+	padding:0px;
+	z-index:0;
+
+}
+.dataBarTitle
+{
+	width:59%;
+}
+#oursListContainer .dataBarTitle
+{
+	left:115px;	
+}
+#yoursListContainer .dataBarTitle
+{
+	left:115px;	
+}
+#copiesListContainer .dataBarTitle
+{
+	left:60px;	
+}
+#searchListContainer .dataBarTitle
+{
+	left:60px;
+}
+#helpListContainerCG .dataBarTitle
+{
+	left:45px;
+}
+.header
+{
+
+}
+.dataBarTitleP
+{
+	font-size:1em;
+	color:#fff;
+	margin-top:5%;
+}
+.dataBarTitle span
+{
+	height:42px;
+	margin:0px;
+	padding:0px;	
+}
+.discussListBox
+{
+	height:58%;
+	background-color:#fff;
+	margin-right:2%;
+	position:relative;
+}
+.footerBtns 
+{
+	width:100%;
+	margin-top:6px;
+	
+}
+.grabBoxDiv
+{
+	width:50px;
+	height:50px;
+}
+.grabBoxDiv a
+{
+	width:50px;
+	height:50px;
+}
+.grabBoxDiv .ui-btn-inner{
+	position:relative;
+}
+.grabBoxDiv .ui-btn-inner .ui-icon 
+{
+	position:absolute;
+	top:22%;
+	left:22%;
+}
+#introScroller
+{
+	max-height:575px;	
+}
+.logo
+{
+	height:60%;
+}
+.logoSpan 
+{
+	font-size:3.9em;
+	color:#3C67BF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-stretch:semi-condensed;	
+	text-align:left;
+	padding-bottom:5px;
+	padding-left:2px;
+}
+.mainTitle p 
+{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:1.7em;
+	color:#000;
+	margin:0px;
+	padding:0px;
+}
+.mainNav
+{
+	height:40%;
+}
+.pitch h2
+{
+	font-size:.8em;	
+}
+.pitch span
+{
+	font-size:.7em;	
+}
+.searchArrowLDiv
+{
+	position:absolute;
+	height:44px;
+	width:44px;
+	top:8px;
+	left:405px;
+}
+#signInLogo
+{
+	background-image:url(images/compass.png);
+	background-position:30px -20px;
+	background-repeat:no-repeat;
+	background-size:93%;
+}
+#signInP .pitch h2
+{
+	font-size:1.5em;
+}
+#signInP .pitch h4
+{
+	font-size:.9em;
+}
+#signInP .pitch span
+{
+	font-size:.9em;
+}
+.swoop
+{
+	position:absolute;
+	height:44px;
+	width:44px;
+	top:8px;
+	left:440px;
+}
+.ui-overlay-a 
+{
+	background-image:none;
+}
+.uploaderBtn
+{
+	display:none;
+}
+.ui-overlay-a 
+{
+	background-image:none;
+}
+.ui-body-a
+{
+	background-image:none;
+}7
+}
 /* smallest */
 @media only screen and (max-device-width:575px){
 .mainContainer
