@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-    <widget xmlns   = "http://www.w3.org/ns/widgets"
+<widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.kinnective.main"
         versionCode = "10" 
@@ -16,6 +16,7 @@
     <author href="http://www.kinnective.com" email="ak@lenehan.org">
         Dan and Art Lenehan 
     </author>
+    <access origin="http://www.kinnective.com" subdomains="true"/>
     <icon src="icons/android/kinnldpi_launcher.png" gap:platform="android" gap:density="ldpi" />
     <icon src="icons/android/kinnmdpi_launcher.png" gap:platform="android" gap:density="mdpi" />
     <icon src="icons/android/kinnhdpi_launcher.png" gap:platform="android" gap:density="hdpi" />
