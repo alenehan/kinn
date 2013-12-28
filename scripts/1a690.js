@@ -192,6 +192,7 @@ var downloadedHTML="";
    resetStack();
    captchaFlag=false;
    dataObj={};
+   alert("href: " + window.location.href);
    if(window.location.search) {
         var dec=decodeURIComponent(window.location.search);
         var qArr=dec.split("kinnectiveURL=");
