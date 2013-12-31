@@ -4,7 +4,7 @@
         id          = "com.kinnective.main"
         versionCode = "10" 
         version     = "1.0.7" >
-    <name>Kinnective for Android Test2</name>
+    <name>Kinnective</name>
     <description>The bookmarks manager for your mobile, social world.</description>
     <author href="http://www.kinnective.com" email="ak@lenehan.org">Dan and Art Lenehan</author>
     <access origin="http://kinnective.com" subdomains="true"/>
