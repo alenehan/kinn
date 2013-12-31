@@ -9,7 +9,7 @@
 var kinn={};
 var downloadedHTML="";
 (function(){
-    var server = "http://www.kinnective.com";
+    var server = "http://www.kinnective.com/";
     var mainWid;
     var mainHt;
     var dropInto=false;

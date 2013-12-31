@@ -1,5 +1,5 @@
 <!DOCTYPE html> 
-<!-- v. 1a673 -->
+<!-- v. 1a693 -->
 <html>
 <head>
 <title>Kinnective</title>
@@ -14,7 +14,7 @@
 <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8" />
 <meta name="viewport" CONTENT="width=device-width, initial-scale=1 user-scalable=no maximum-scale=1">
 <link REL="stylesheet" HREF="css/kinncol.css" />
-<link REL="stylesheet" HREF="css/kinnStyle1a673.css"/>
+<link REL="stylesheet" HREF="css/kinnStyle1a693.css"/>
 <script language="javascript" TYPE="text/javascript">
    var kinnGoogParams = {};
    var kinnGoog = /#/;
@@ -45,7 +45,7 @@
 </script>
 <link REL="stylesheet" HREF="css/jquery.mobile.structure-1.1.0.min.css" />
 <script SRC="scripts/jq.js" TYPE="text/javascript"></script>
-<script SRC="scripts/1a673.js" TYPE="text/javascript"></script>
+<script SRC="scripts/1a693.js" TYPE="text/javascript"></script>
 <script SRC="scripts/jqm.js" TYPE="text/javascript"></script>
 </head> 
 <body>
@@ -78,7 +78,7 @@
  <iframe SRC="anyblankpage.html" name="dummy" STYLE="display: none"></iframe>
 <!-- dan -->
                      <div CLASS="contentContainer">
-                     	<div id="signInForm" class="scrollable">
+                     	<div id="signInForm" class="scrollable signDiv">
                             <div CLASS="pitch">
                             <h4>Push buttons, go places</h4>
                             <h2>Navigation for your mobile, social world</h2>
@@ -102,17 +102,17 @@
                              </div>
                               </div><!-- end of fieldcontain -->
   
-                                        <div id="signInDiv"><input TYPE="submit" VALUE="Sign In" id="si"/></div>
+                             <div id="signInDiv"><input TYPE="submit" VALUE="Sign In" id="si"/></div>
  <!-- dan  -->                               
 							</form>
  <!-- dan  -->
 
                                <br/>
-                               <a HREF="#forgot" TYPE="button" VALUE="Forgot PW" id="forgotBtn" STYLE="width:90%; margin-left:auto; margin-right:auto;">Forgot PW</a>
-                               <a HREF="#changeP" TYPE="button" VALUE="Change PW" id="changePBtn" STYLE="width:90%; margin-left:auto; margin-right:auto;">Change PW</a>
-                               <a HREF="#cancel" TYPE="button" VALUE="Resign" id="cancelBtn" STYLE="width:90%;margin-left:auto; margin-right:auto;">Resign</a>
+                               <a HREF="#forgot" TYPE="button" VALUE="Forgot PW" id="forgotBtn" STYLE="width:60%; margin-left:auto; margin-right:auto;">Forgot PW</a>
+                               <a HREF="#changeP" TYPE="button" VALUE="Change PW" id="changePBtn" STYLE="width:60%; margin-left:auto; margin-right:auto;">Change PW</a>
+                               <a HREF="#cancel" TYPE="button" VALUE="Resign" id="cancelBtn" STYLE="width:60%;margin-left:auto; margin-right:auto;">Resign</a>
                                <br/>
-                               <a HREF="#register" TYPE="button" VALUE="Register" id="reg" data-theme="a" CLASS="ui-btn-active">Click here for a free trial.</a>
+                               <a HREF="#register" TYPE="button" VALUE="Register" id="reg" data-theme="a" CLASS="ui-btn-active">Click here for free trial.</a>
                                <p/>
                                <a HREF="#register2" TYPE="button" VALUE="Register" id="reg2" data-theme="a" CLASS="ui-btn-active">Click here to join.</a>
                                <br/>
@@ -226,7 +226,7 @@
                      </div><!--end of header above -->
                      <div CLASS="contentContainer">
                         <div id=uploadFormContainer>
-                              <form name="upLoaderForm" id="upLoaderForm" ENCTYPE="multipart/form-data" TARGET="favoritesReturn" METHOD="post" ACTION="http://kinnective.com/kinnective4/fullway30e.php" STYLE="padding:25px;">
+                              <form name="upLoaderForm" id="upLoaderForm" ENCTYPE="multipart/form-data" TARGET="favoritesReturn" METHOD="post" ACTION="http://www.kinnective.com/kinnective4/fullway30e.php" STYLE="padding:25px;">
                              <fieldset>
                              <input TYPE="file" id="favs" name="favs" VALUE="favs"/>
                               <input TYPE="hidden" name="xml" VALUE="1"/>
@@ -685,14 +685,14 @@
                         		</span>
                             </div><!--end of logo -->
                             <div data-role="navbar" CLASS="mainNav">
-                               <ul CLASS="fiveBtns">
+                               <ul class="fiveBtns">
                                <li><a REL="external" HREF="#upLoad" CLASS="uploadBtnClass">Upload</a></li>
                                 <li><a REL="external"href="#yours" CLASS="yoursBtnClass">Private</a></li>
                                 <li><a REL="external"href="#ours" CLASS="oursBtnClass">Public</a></li>
                                 <li><a REL="external"href="#signInP" CLASS="signInBtnClass">Sign In</a></li>
                                 <li><a REL="external" HREF="#searchAdd" CLASS="searchBtnClass">Search</a></li>
                                </ul>
-                               <ul CLASS="fourBtns">
+                               <ul class="fourBtns">
                                 <li><a REL="external"href="#yours" CLASS="yoursBtnClass">Private</a></li>
                                 <li><a REL="external"href="#ours" CLASS="oursBtnClass">Public</a></li>
                                 <li><a REL="external"href="#signInP" CLASS="signInBtnClass">Sign In</a></li>
@@ -701,22 +701,23 @@
                             </div><!-- end of navbar -->
                      </div><!--end of header above -->
                      <div CLASS="contentContainer scrollable signDiv">
-                     <div CLASS="scrollerPane">
-                     <br/>
+                      <br/>
                      <h3>Kinnective is an ad-free site focused on mapping useful and interesting web resources.  To register for a one month free trial, fill out the form below.  If you register within the month for full membership, your bookmarks will be migrated to your full membership account.</h3>
-                    <br/>
-						<form METHOD="POST" ACTION="http://kinnective.com/kinnective4/free_verify.php" TARGET="_self">
-                                    <div>First Name:     <input TYPE="text" name="user_first_name" id="user_first_name" CLASS="scrollUp"/></div>
-                                    <div>Last Name:     <input TYPE="text" name="user_last_namename" id="user_last_name" CLASS="scrollUp"/></div>
-                                    <div>Email address: <input TYPE="text" name="useremail" id="regUseremail" CLASS="scrollUp"/></div>
-                                    <div>User ID:       <input TYPE="text" name="userid" id="regUserid" CLASS="scrollUp"/></div>
-                                    <div>Enter Password:     <input TYPE="password" name="regUserPassword1" id="regUserPassword1" CLASS="scrollUp"/></div>
-                                    <div>Re-enter Password:     <input TYPE="password" name="regUserPassword2" id="regUserPassword2" CLASS="scrollUp"/></div>
-                                    <div id="submitter">
-                                    	<input TYPE="submit" name="Button1" VALUE="Submit" id="regSubmit"/>
-                                    </div>
+                            <br/>
+						<form METHOD="POST" ACTION="http://www.kinnective.com/kinnective4/free_verify.php" TARGET="_self">
+                                    <div CLASS="inputWidth">First Name:     <input TYPE="text" name="user_first_name" id="user_first_name" CLASS="scrollUp"/></div>
+                                    <div CLASS="inputWidth">Last Name:     <input TYPE="text" name="user_last_namename" id="user_last_name" CLASS="scrollUp"/></div>
+                                    <div CLASS="inputWidth">Email address: <input TYPE="text" name="useremail" id="regUseremail" CLASS="scrollUp"/></div>
+                                    <div CLASS="inputWidth">User ID:       <input TYPE="text" name="userid" id="regUserid" CLASS="scrollUp"/></div>
+                                    <div CLASS="inputWidth">Enter Password:     <input TYPE="password" name="regUserPassword1" id="regUserPassword1" CLASS="scrollUp"/></div>
+                                    <div CLASS="inputWidth">Re-enter Password:     <input TYPE="password" name="regUserPassword2" id="regUserPassword2" CLASS="scrollUp"/></div>
+                                    <br/>
+                                    <br/>
+                                    <div id="submitter" CLASS="ui-grid-a">
+                                    	<div CLASS="ui-block-a"><input TYPE="submit" name="Button1" VALUE="Submit" id="regSubmit" data-mini="true" CLASS="subIn"/></div>
+                                        <div CLASS="forgotBack ui-block-b"><a href="#signInP" data-role="button" data-icon="delete" data-mini="true">Done</a></div>
+                                    </div><!--end of submitter-->
                                </form>
-                     </div><!--end of scrollerPane-->
 					 </div><!-- end of contentContainer -->
   	</div><!-- end of mainContainer above -->
 </div><!-- end of pageMain -->
@@ -746,22 +747,23 @@
                             </div><!-- end of navbar -->
                      </div><!--end of header above -->
                      <div CLASS="contentContainer scrollable signDiv">
-                     <div CLASS="scrollerPane">
                      <br/>
-                     <h3>Registration gives users the ability to contribute to the public map, to edit the map -- subject to approval of other users -- and to participate in discussion and votes on changes. Members are charged 99 cents a month. To proceed, please fill out and submit the form.</h3>
+                     <h3>Registration gives users the ability to contribute to the public map that Kinnective users are building, to edit the map -- subject to approval of other users -- and to participate in discussion and votes on changes. Users are charged 99 cents a month. To proceed, please fill out and submit the form.</h3>
                      <br/>
-						<form METHOD="POST" ACTION="http://kinnective.com/kinnective4/paid_verify.php" TARGET="_self">
-                                    <div>First Name:     <input TYPE="text" name="user_first_name" id="user_first_name2" CLASS="scrollUp"/></div>
-                                    <div>Last Name:     <input TYPE="text" name="user_last_namename" id="user_last_name2" CLASS="scrollUp"/></div>
-                                    <div>Email address: <input TYPE="text" name="useremail" id="regUseremail2" CLASS="scrollUp"/></div>
-                                    <div>User ID:       <input TYPE="text" name="userid" id="regUserid2" CLASS="scrollUp"/></div>
-                                    <div>Enter Password:     <input TYPE="password" name="regUserPassword1" id="regUserPassword12" CLASS="scrollUp"/></div>
-                                    <div>Re-enter Password:     <input TYPE="password" name="regUserPassword2" id="regUserPassword22" CLASS="scrollUp"/></div>
-                                    <div id="submitter2">
-                                    	<input TYPE="submit" name="Button1" VALUE="Submit" id="regSubmit2"/>
+						<form METHOD="POST" ACTION="http://www.kinnective.com/kinnective4/paid_verify.php" TARGET="_self">
+                                    <div CLASS="inputWidth">First Name:     <input TYPE="text" name="user_first_name" id="user_first_name2" CLASS="scrollUp"/></div>
+                                    <div CLASS="inputWidth">Last Name:     <input TYPE="text" name="user_last_namename" id="user_last_name2" CLASS="scrollUp"/></div>
+                                    <div CLASS="inputWidth">Email address: <input TYPE="text" name="useremail" id="regUseremail2" CLASS="scrollUp"/></div>
+                                    <div CLASS="inputWidth">User ID:       <input TYPE="text" name="userid" id="regUserid2" CLASS="scrollUp"/></div>
+                                    <div CLASS="inputWidth">Enter Password:     <input TYPE="password" name="regUserPassword1" id="regUserPassword12" CLASS="scrollUp"/></div>
+                                    <div CLASS="inputWidth">Re-enter Password:     <input TYPE="password" name="regUserPassword2" id="regUserPassword22" CLASS="scrollUp"/></div>
+                                    <br/>
+                                    <br/>
+                                    <div id="submitter2" CLASS="ui-grid-a">
+                                    	<div CLASS="ui-block-a"><input TYPE="submit" name="Button1" VALUE="Submit" id="regSubmit2" data-mini="true"/></div>
+                                        <div CLASS="forgotBack ui-block-b"><a href="#signInP" data-role="button" data-icon="delete" data-mini="true">Done</a></div>
                                     </div>
                                </form>
-                     </div><!--end of scrollerPane-->
 					 </div><!-- end of contentContainer -->
   	</div><!-- end of mainContainer above -->
 </div><!-- end of pageMain -->
@@ -788,21 +790,21 @@
                                 <li><a REL="external" HREF="#signInP" CLASS="signInBtnClass">Sign In</a></li>
                                 <li><a REL="external" HREF="#searchAdd" CLASS="searchBtnClass">Search</a></li>
                                </ul>
-                            </div><!-- end of navbar --> 
+                            </div><!-- end of navbar -->
                      </div><!--end of header above -->
-                     <div id="forgotBack"><a href="#signInP" data-role="button" data-icon="delete" data-mini="true">Done</a></div>
-                     <div CLASS="contentContainer scrollable signDiv">
-                     <div CLASS="scrollerPane">
+                      <div CLASS="contentontainer scrollable signDiv">
                      <br/>
                      <div class="pitch"><p>To recover username and reset password, please enter your email address. A message with an enabling link will be emailed to you immediately.</p></div>
                      <br/>
-							  <form METHOD="POST" ACTION="http://kinnective.com/kinnective4/fullway30e.php" TARGET="_self" name="forgotPassword">
-									<div>Email address: <input TYPE="text" name="useremail" id="forgotUserEmail" CLASS="scrollUp"/></div>
-                                    <div id="submitter">
-                                    <input TYPE="submit" name="Button1" VALUE="Submit" id="forgotSubmit"/>
-                                    </div>
+							  <form METHOD="POST" ACTION="http://www.kinnective.com/kinnective4/fullway30e.php" TARGET="_self" name="forgotPassword">
+									<div CLASS="inputWidth">Email address: <input TYPE="text" name="useremail" id="forgotUserEmail" CLASS="scrollUp"/></div>
+                                    <br/>
+                                    <br/>
+                                    <div id="submitter3" CLASS="ui-grid-a">
+                                    <div CLASS="ui-block-a"><input TYPE="submit" name="Button1" VALUE="Submit" id="forgotSubmit" data-mini="true"/></div>
+                                    <div CLASS="forgotBack ui-block-b"><a href="#signInP" data-role="button" data-icon="delete" data-mini="true">Done</a></div>
+                                    </div><!-- end of submitter3-->
                                </form>
-                     </div><!--end of scrollerPane-->
 					 </div><!-- end of contentContainer -->
   	</div><!-- end of mainContainer above -->
 </div><!-- end of pageMain -->
@@ -832,19 +834,20 @@
                             </div><!-- end of navbar -->
                      </div><!--end of header above -->
                      <div CLASS="contentContainer scrollable signDiv">
-                     <div CLASS="scrollerPane">
                      <br/>
                      <h3>To cancel membership, please fill out the form and click on "Submit."</h3>
                      <br/>
-							  <form METHOD="POST" ACTION="http://kinnective.com/kinnective4/verify.php" TARGET="_self">
-                                    <div>Email address: <input TYPE="text" name="useremail" id="cancelUserEmail" CLASS="scrollUp"/></div>
-                                    <div>User ID:       <input TYPE="text" name="userid" id="cancelUserId" CLASS="scrollUp"/></div>
-                                    <div>Password:       <input TYPE="password" name="cancelPassword" id="cancelPassword" CLASS="scrollUp"/></div>
-                                   <div id="submitter">
-                                    	<input TYPE="submit" name="Button1" VALUE="Submit cancellation" id="cancelSubmit"/>
-                                    </div>
+							  <form METHOD="POST" ACTION="http://www.kinnective.com/kinnective4/verify.php" TARGET="_self">
+                                    <div CLASS="inputWidth">Email address: <input TYPE="text" name="useremail" id="cancelUserEmail" CLASS="scrollUp"></div>
+                                    <div CLASS="inputWidth">User ID:       <input TYPE="text" name="userid" id="cancelUserId" CLASS="scrollUp"></div>
+                                    <div CLASS="inputWidth">Password:       <input TYPE="password" name="cancelPassword" id="cancelPassword" CLASS="scrollUp"></div>
+                                    <br/>
+                                    <br/>
+                                   <div id="submitter4" CLASS="ui-grid-a">
+                                    <div CLASS="ui-block-a"><input TYPE="submit" name="Button1" VALUE="Submit" id="cancelSubmit" CLASS="scrollUp" data-mini="true"/></div>
+                                    <div CLASS="forgotBack ui-block-b"><a href="#signInP" data-role="button" data-icon="delete" data-mini="true">Done</a></div>
+                                    </div><!--end of submitter4-->
                                </form>
-                               </div><!-- end of scrollerPane-->
 					 </div><!-- end of contentContainer -->
   	</div><!-- end of mainContainer above -->
 </div><!-- end of pageMain -->
@@ -874,20 +877,21 @@
                             </div><!-- end of navbar -->
                      </div><!--end of header above -->
                      <div CLASS="contentContainer scrollable signDiv">
-                     <div CLASS="scrollerPane">
                      <br/>
-                     			<h3>Change password.</h3>
+                     			<h3>Change password:</h3>
                                 <br/>
-							  <form METHOD="POST" ACTION="http://kinnective.com/kinnective4/verify.php" TARGET="_self">
-                                    <div>User ID:       <input TYPE="text" name="newUserID" id="newUserID" CLASS="scrollUp"/></div>
-                                    <div>Old password:     <input TYPE="password" name="oldUserPassword" id="oldUserPassword" CLASS="scrollUp"/></div>
-                                    <div>New password:     <input TYPE="password" name="newUserPassword2" id="newUserPassword1" CLASS="scrollUp"/></div>
-                                    <div>Re-enter new password:     <input TYPE="password" name="newUserPassword2" id="newUserPassword2" CLASS="scrollUp"/></div>
-                                    <div id="submitter">
-                                    	<input TYPE="submit" name="newPasswordSubmit" VALUE="Submit" id="newPasswordSubmit"/>
+							  <form METHOD="POST" ACTION="http://www.kinnective.com/kinnective4/verify.php" TARGET="_self">
+                                    <div CLASS="inputWidth">User ID:       <input TYPE="text" name="newUserID" id="newUserID"  CLASS="scrollUp"/></div>
+                                    <div CLASS="inputWidth">Old password:     <input TYPE="password" name="oldUserPassword" id="oldUserPassword" CLASS="scrollUp"/></div>
+                                    <div CLASS="inputWidth">New password:     <input TYPE="password" name="newUserPassword2" id="newUserPassword1" CLASS="scrollUp"/></div>
+                                    <div CLASS="inputWidth">Re-enter new password:     <input TYPE="password" name="newUserPassword2" id="newUserPassword2" CLASS="scrollUp"/></div>
+                                    <br/>
+                                    <br/>
+                                    <div id="submitter5" CLASS="ui-grid-a">
+                                    	<div CLASS="ui-block-a"><input TYPE="submit" name="newPasswordSubmit" VALUE="Submit" id="newPasswordSubmit" data-mini="true"/></div>
+                                        <div CLASS="forgotBack ui-block-b"><a href="#signInP" data-role="button" data-icon="delete" data-mini="true">Done</a></div>
                                     </div>
                                </form>
-                     </div><!--end of scrollerPane-->
 					 </div><!-- end of contentContainer -->
   	</div><!-- end of mainContainer above -->
 </div><!-- end of pageMain -->
