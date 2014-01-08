@@ -7,9 +7,9 @@
  ***************************************************************************/
 //other pages need access to a few variables
 var kinn={};
-var downloadedHTML="http://www.kinnective.com/";
+var downloadedHTML="";
 (function(){
-    var server = "";
+    var server = "http://www.kinnective.com/";
     var winW;
     var winH;
     var mainWid;
