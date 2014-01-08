@@ -224,7 +224,7 @@ var downloadedHTML="";
            type:'GET',
            contentType: 'application/x-www-form-urlencoded',
            dataType:'xml',
-           url:server +'kinnective4/fullway30e.php',
+           url:"" + server +'kinnective4/fullway30e.php',
                data:{
                   command:"47"
                },
@@ -465,7 +465,7 @@ var downloadedHTML="";
                type:'GET',
                contentType: 'application/x-www-form-urlencoded',
                dataType:'xml',
-               url:server +'kinnective4/fullway30e.php',
+               url:"" + server +'kinnective4/fullway30e.php',
                data:{
                      xml:1,
                      command:36,
@@ -499,7 +499,7 @@ var downloadedHTML="";
                  type:'GET',
                  contentType: 'application/x-www-form-urlencoded',
                  dataType:'xml',
-                 url:server +'kinnective4/fullway30e.php',
+                 url:"" + server +'kinnective4/fullway30e.php',
                  data:{
                        xml:1,
                        command:54,
@@ -534,7 +534,7 @@ var downloadedHTML="";
                type:'GET',
                contentType: 'application/x-www-form-urlencoded',
                dataType:'xml',
-               url:server +'kinnective4/fullway30e.php',
+               url:"" + server +'kinnective4/fullway30e.php',
                data:{
                      xml:1,
                      command:37,
@@ -639,7 +639,7 @@ var downloadedHTML="";
               type:'GET',
               contentType: 'application/x-www-form-urlencoded',
               dataType:'xml',
-              url:server +'kinnective4/fullway30e.php',
+              url:"" + server +'kinnective4/fullway30e.php',
               data:{
                  xml:1,
                  command:command,
@@ -682,7 +682,7 @@ var downloadedHTML="";
               type:'GET',
               contentType: 'application/x-www-form-urlencoded',
               dataType:'xml',
-              url:server +'kinnective4/fullway30e.php',
+              url:"" + server +'kinnective4/fullway30e.php',
               data:{
                  xml:1,
                  command:12,
@@ -714,7 +714,7 @@ var downloadedHTML="";
             type:'GET',
             contentType: 'application/x-www-form-urlencoded',
             dataType:'xml',
-            url:server +'kinnective4/fullway30e.php',
+            url:"" + server +'kinnective4/fullway30e.php',
             data:{
                xml:1,
                command:73,
@@ -752,7 +752,7 @@ var downloadedHTML="";
             type:'GET',
             contentType: 'application/x-www-form-urlencoded',
             dataType:'xml',
-            url:server +'kinnective4/fullway30e.php',
+            url:"" + server +'kinnective4/fullway30e.php',
             data:{
                xml:1,
                command:73,
@@ -795,7 +795,7 @@ var downloadedHTML="";
                   searchterms:searchT,
                   searchmode:adder
              },
-               url:server +'kinnective4/fullway30e.php',
+               url:"" + server +'kinnective4/fullway30e.php',
                success: function(data) {
                   searchR=data;
                   var tester=$(searchR).find('status').text();
@@ -1136,7 +1136,7 @@ var downloadedHTML="";
                   type:'POST',
                   contentType: 'application/x-www-form-urlencoded',
                   dataType:'xml',
-                  url:server +'kinnective4/fullway30e.php',
+                  url:"" + server +'kinnective4/fullway30e.php',
                   data:{
                      xml:1,
                      command:18,
@@ -1197,7 +1197,7 @@ var downloadedHTML="";
                type:'GET',
                contentType: 'application/x-www-form-urlencoded',
                dataType:'xml',
-               url:server +'kinnective4/fullway30e.php',
+               url:"" + server +'kinnective4/fullway30e.php',
                data:{
                   xml:1,
                   command:19
@@ -1235,7 +1235,7 @@ var downloadedHTML="";
                   type:'POST',
                   contentType: 'application/x-www-form-urlencoded',
                   dataType:'xml',
-                  url:server +'kinnective4/fullway30e.php',
+                  url:"" + server +'kinnective4/fullway30e.php',
                   data:{
                         userid:userid,
                         old_userpassword:old_userpassword,
@@ -1291,7 +1291,7 @@ var downloadedHTML="";
                   type:'POST',
                   contentType: 'application/x-www-form-urlencoded',
                   dataType:'xml',
-                  url:server +'kinnective4/free_verify.php',
+                  url:"" + server +'kinnective4/free_verify.php',
                   data:{
                         user_first_name:user_first_name,
                         user_last_name:user_last_name,
@@ -1351,7 +1351,7 @@ var downloadedHTML="";
                   type:'POST',
                   contentType: 'application/x-www-form-urlencoded',
                   dataType:'xml',
-                  url:server +'kinnective4/paid_verify.php',
+                  url:"" + server +'kinnective4/paid_verify.php',
                   data:{
                         user_first_name:user_first_name,
                         user_last_name:user_last_name,
@@ -1400,7 +1400,7 @@ var downloadedHTML="";
                   type:'POST',
                   contentType: 'application/x-www-form-urlencoded',
                   dataType:'xml',
-                  url:server +'kinnective4/fullway30e.php',
+                  url:"" + server +'kinnective4/fullway30e.php',
                   data:{
                         useremail:useremail,
                         command:'72'
@@ -1438,7 +1438,7 @@ var downloadedHTML="";
                   type:'POST',
                   contentType: 'application/x-www-form-urlencoded',
                   dataType:'xml',
-                  url:server +'kinnective4/fullway30e.php',
+                  url:"" + server +'kinnective4/fullway30e.php',
                   data:{
                         userid:userid,
                         useremail:useremail,
@@ -1551,7 +1551,7 @@ var downloadedHTML="";
               type:'GET',
               contentType: 'application/x-www-form-urlencoded',
               dataType:'xml',
-              url:server +'kinnective4/fullway30e.php',
+              url:"" + server +'kinnective4/fullway30e.php',
               data:params,
               success: function(data) {
                  copyData=data;
@@ -1609,7 +1609,7 @@ var downloadedHTML="";
                type:'GET',
                contentType: 'application/x-www-form-urlencoded',
                dataType:'xml',
-               url:server +'kinnective4/fullway30e.php',
+               url:"" + server +'kinnective4/fullway30e.php',
                data:params,
                success: function(data) {
                   copyData=data;
@@ -1664,7 +1664,7 @@ var downloadedHTML="";
             type:'GET',
             contentType: 'application/x-www-form-urlencoded',
             dataType:'xml',
-            url:server +'kinnective4/fullway30e.php',
+            url:"" + server +'kinnective4/fullway30e.php',
             data:params,
             success: function(data) {
                copyData=data;
@@ -1853,7 +1853,7 @@ var downloadedHTML="";
          type:'GET',
          contentType: 'application/x-www-form-urlencoded',
          dataType:'xml',
-         url:server +'kinnective4/fullway30e.php',
+         url:"" + server +'kinnective4/fullway30e.php',
          data:{
             xml:"1"
          },
@@ -1885,7 +1885,7 @@ var downloadedHTML="";
          type:'GET',
          contentType: 'application/x-www-form-urlencoded',
          dataType:'xml',
-         url:server +'kinnective4/fullway30e.php',
+         url:"" + server +'kinnective4/fullway30e.php',
          data:params,
          success: function(data) {
             getOursX=data;
@@ -2212,7 +2212,7 @@ var downloadedHTML="";
                                      type:'GET',
                                      contentType: 'application/x-www-form-urlencoded',
                                      dataType:'xml',
-                                     url:server +'kinnective4/fullway30e.php',
+                                     url:"" + server +'kinnective4/fullway30e.php',
                                      data:{
                                         xml:"1",
                                         command:"103",
@@ -2272,7 +2272,7 @@ var downloadedHTML="";
          type:'GET',
          contentType: 'application/x-www-form-urlencoded',
          dataType:'xml',
-         url:server +'kinnective4/fullway30e.php',
+         url:"" + server +'kinnective4/fullway30e.php',
          data:{
             xml:"1",
             command:"41"
@@ -2305,7 +2305,7 @@ var downloadedHTML="";
          type:'GET',
          contentType: 'application/x-www-form-urlencoded',
          dataType:'xml',
-         url:server +'kinnective4/fullway30e.php',
+         url:"" + server +'kinnective4/fullway30e.php',
          data:params,
          success: function(data) {
             getYoursX=data;
@@ -2342,7 +2342,7 @@ var downloadedHTML="";
          type:'GET',
          contentType: 'application/x-www-form-urlencoded',
          dataType:'xml',
-         url:server +'kinnective4/fullway30e.php',
+         url:"" + server +'kinnective4/fullway30e.php',
          data:params,
          success: function(data) {
             getOrphansX=data;
@@ -2377,7 +2377,7 @@ var downloadedHTML="";
          //contentType: 'text/html',
          contentType: 'application/x-www-form-urlencoded',
          dataType:'xml',
-         url:server +'kinnective4/fullway30e.php',
+         url:"" + server +'kinnective4/fullway30e.php',
          data:{
             xml:1,
             command:38,
@@ -2409,7 +2409,7 @@ var downloadedHTML="";
          type:'GET',
          contentType: 'application/x-www-form-urlencoded',
          dataType:'xml',
-         url:server +'kinnective4/fullway30e.php',
+         url:"" + server +'kinnective4/fullway30e.php',
          data:{
             xml:1,
             command:13,
@@ -2483,7 +2483,7 @@ var downloadedHTML="";
          type:'GET',
          contentType: 'application/x-www-form-urlencoded',
          dataType:'xml',
-         url:server +'kinnective4/fullway30e.php',
+         url:"" + server +'kinnective4/fullway30e.php',
          data:{
             xml:1,
             command:39,
@@ -2522,7 +2522,7 @@ var downloadedHTML="";
             type:'GET',
             contentType: 'application/x-www-form-urlencoded',
             dataType:'xml',
-            url:server +'kinnective4/fullway30e.php',
+            url:"" + server +'kinnective4/fullway30e.php',
             data:{
                xml:1,
                command:74,
@@ -2557,7 +2557,7 @@ var downloadedHTML="";
             type:'GET',
             contentType: 'application/x-www-form-urlencoded',
             dataType:'xml',
-            url:server +'kinnective4/fullway30e.php',
+            url:"" + server +'kinnective4/fullway30e.php',
             data:{
                xml:1,
                command:74,
@@ -3240,7 +3240,7 @@ function renderCopiesView(){
                      type:'GET',
                      contentType: 'application/x-www-form-urlencoded',
                      dataType:'xml',
-                     url:server +'kinnective4/fullway30e.php',
+                     url:"" + server +'kinnective4/fullway30e.php',
                      data:{
                         node:oursWaypointID,
                         command:"86",
@@ -3303,7 +3303,7 @@ function renderCopiesView(){
                      type:'GET',
                      contentType: 'application/x-www-form-urlencoded',
                      dataType:'xml',
-                     url:server +'kinnective4/fullway30e.php',
+                     url:"" + server +'kinnective4/fullway30e.php',
                      data:{
                         node:yoursWaypointID,
                         command:"86",
@@ -3341,7 +3341,7 @@ function renderCopiesView(){
                      type:'GET',
                      contentType: 'application/x-www-form-urlencoded',
                      dataType:'text',
-                     url:server +'kinnective4/fullway30e.php',
+                     url:"" + server +'kinnective4/fullway30e.php',
                      data:{
                         node:0,
                         command:"35",
@@ -3476,7 +3476,7 @@ function renderCopiesView(){
                type:'GET',
                contentType: 'application/x-www-form-urlencoded',
                dataType:'html',
-               url:server +'kinnreg4bbb.html',
+               url:"" + server +'kinnreg4bbb.html',
                success: function(data) {
                   var k4=data;
                   $('#kinnreg4').html(k4);
@@ -3502,7 +3502,7 @@ function renderCopiesView(){
                type:'POST',
                contentType: 'application/x-www-form-urlencoded',
                dataType:'xml',
-               url:server +'kinnective4/fullway30e.php',
+               url:"" + server +'kinnective4/fullway30e.php',
                data:{
                      recaptcha_response_field:response,
                      recaptcha_challenge_field:challenge,
@@ -3543,7 +3543,7 @@ function renderCopiesView(){
                type:'GET',
                contentType: 'application/x-www-form-urlencoded',
                dataType:'html',
-               url:server +'kinnreg3bb.html',
+               url:"" + server +'kinnreg3bb.html',
                success: function(data) {
                   var k3=data;
                   $('#kinnreg3').html(k3);
@@ -3603,7 +3603,7 @@ function renderCopiesView(){
                type:'GET',
                contentType: 'application/x-www-form-urlencoded',
                dataType:'xml',
-               url:server +'kinnective4/fullway30e.php',
+               url:"" + server +'kinnective4/fullway30e.php',
                data:params,
                success: function(data) {
                    var patt=/ERROR/;
