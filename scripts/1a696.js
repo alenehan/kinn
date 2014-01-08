@@ -9,7 +9,7 @@
 var kinn={};
 var downloadedHTML="";
 (function(){
-    var server = "http:www.kinnective.com/";
+    var server = "http://www.kinnective.com/";
     var winW;
     var winH;
     var mainWid;
@@ -225,7 +225,7 @@ var downloadedHTML="";
            contentType: 'application/x-www-form-urlencoded',
            dataType:'xml',
            url:"" + server +'kinnective4/fullway30e.php',
-               data:{
+           data:{
                   command:"47"
                },
            success: function(data) {
