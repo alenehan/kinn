@@ -7,9 +7,9 @@
  ***************************************************************************/
 //other pages need access to a few variables
 var kinn={};
-var downloadedHTML="";
+var downloadedHTML="http://www.kinnective.com/";
 (function(){
-    var server = "http://www.kinnective.com/";
+    var server = "";
     var winW;
     var winH;
     var mainWid;
@@ -268,8 +268,8 @@ var downloadedHTML="";
      });
     function attachHandlers(){
        $(window).resize(function(e){
-          $('.mainContainer').css('width',mainW);
-          $('mainContainer').css('height',mainH);
+          $('.mainContainer').css('width',mainWid);
+          $('.mainContainer').css('height',mainHt);
           $('.pageMain').css('width','100%');
       });
       $('#yoursSearchBtn, #yoursSearchBtn2').on('click',function(e){
