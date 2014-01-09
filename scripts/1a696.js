@@ -9,7 +9,7 @@
 var kinn={};
 var downloadedHTML="";
 (function(){
-    var server = "http://www.kinnective.com/";
+    var server = "";
     var winW;
     var winH;
     var mainWid;
@@ -188,7 +188,7 @@ var downloadedHTML="";
       }else if(winW >= 770){
           $('.fourBtns').remove();
       }
-      alert("Diagnostics: " + "\n\n" + "Window width: " + winW + "\n" + "Window height: " +  winH + "\n" + "Container width: " + mainWid + "\n" + "Container height: " + mainHt);
+      /*alert("Diagnostics: " + "\n\n" + "Window width: " + winW + "\n" + "Window height: " +  winH + "\n" + "Container width: " + mainWid + "\n" + "Container height: " + mainHt);*/
       if(isKindle){
          $('<br/>').prependTo('#copies .mainContainer');
       };
