@@ -1059,7 +1059,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebeeda', end
 	height:65px;
 }
 /* smaller */
-@media only screen and (max-height:880px) and (min-width:606px)
+@media only screen and (max-height:880px) and (min-width:621px)
 {
 .mainContainer
 {
@@ -1293,8 +1293,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebeeda', end
 	background-image:none;
 }
 }
-/*smaller tablets*/
-@media only screen and (max-width:605px) and (min-width:595px)
+/*smaller kindle*/
+@media only screen and (max-width:609px) and (min-width:590px)
 {
 .mainContainer
 {
@@ -1527,9 +1527,242 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebeeda', end
 	background-image:none;
 }7
 }
-/*smallest*/
-@media only screen and (max-device-height:400px)
+/* smallest */
+@media only screen and (max-device-width:575px){
+.mainContainer
 {
+	margin-right:auto;
+	margin-left:auto;
+	width:320px;
+	height:440px;
+	border:none;
+	padding:0px;
+	overflow:hidden;
+	background-color:#ffffff;
+}
+.arrowR
+{
+	position:absolute;
+	height:36px;
+	width:38px;	
+	top:8px;
+	left:272px;
+}
+#helpListContainerCG .arrowR
+{
+	top:2px;
+}
+#bookmarklet
+{
+	height:20px;
+}
+#bookmarkScroller
+{
+	max-height:375px;	
+}
+.breadCrumbs p 
+{
+	font-size:.7em;
+	color:#000;
+	margin:0px;
+	padding:0px;
+}
+	#oursListContainer .checkBoxDiv
+	{
+		left:45px;	
+	}
+	#yoursListContainer .checkBoxDiv
+	{
+		left:45px;	
+	}
+	#copiesListContainer .checkBoxDiv
+	{
+		left:14px;	
+	}
+	#searchListContainer .checkBoxDiv
+	{
+		left:14px;	
+	}
+.dataBar
+{
+	position:relative;
+	height:44px;
+	margin:0px;
+	padding:0px;
+	z-index:0;
+
+}
+.dataBarTitle
+{
+	width:62%;
+}
+.dataBarTitleP
+{
+	font-size:.85em;
+	color:#fff;
+	margin-top:8%;
+}
+.dataBarTitle span
+{
+	height:40px;
+	margin:0px;
+	padding:0px;	
+}
+	#copiesListContainer .dataBarTitle
+	{
+		left:55px;	
+		width:61%;
+	}
+	#searchListContainer .dataBarTitle
+	{
+		left:55px;
+	}
+	#helpListContainerCG .dataBarTitle
+	{
+		left:55px;
+	}
+.discussListBox
+{
+	height:53%;
+	background-color:#fff;
+	margin-right:2%;
+	position:relative;
+}
+.footerBtns 
+{
+	width:100%;
+	margin-top:6px;
+	
+}
+.footerBtns .ui-btn-text
+{
+	font-size:.8em;
+	padding:0px;
+	margin:0px;
+}
+.grabBoxDiv
+{
+	width:44px;
+	height:44px;
+}
+.grabBoxDiv a
+{
+	width:44px;
+	height:44px;
+}
+.grabBoxDiv .ui-btn-inner{
+	position:relative;
+}
+.grabBoxDiv .ui-btn-inner .ui-icon 
+{
+	position:absolute;
+	top:22%;
+	left:22%;
+}
+#helpScrollHandle
+{
+	width:20%;
+}
+#introScroller
+{
+	max-height:375px;	
+}
+.logo
+{
+	height:53%;
+}
+.logoSpan 
+{
+	font-size:2.3em;
+	color:#3C67BF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-stretch:semi-condensed;	
+	text-align:left;
+	padding-bottom:0px;
+	padding-left:2px;
+    top:6%
+}
+.mainNav
+{
+	height:47%;
+}
+.mainTitle p 
+{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:1.2em;
+	color:#000;
+	margin:0px;
+	padding:0px;
+}
+.pitch h2
+{
+	font-size:.9em;	
+}
+.pitch span
+{
+	font-size:.75em;	
+}
+#signInP .pitch h2
+{
+	font-size:.95em;
+}
+#signInP .pitch h4
+{
+	font-size:.8em;
+}
+#signInP .pitch span
+{
+	font-size:.8em;
+	line-height:.6em;
+}
+#signInForm .pitch
+{
+}
+#signInLogo
+{
+	background-position:10px -10px;
+}
+.searchResultsContainer
+{
+	height:45%;
+}
+.searchArrowLDiv
+{
+	position:absolute;
+	height:36px;
+	width:36px;
+	top:8px;
+	left:235px;
+}
+.swoop
+{
+	position:absolute;
+	height:36px;
+	width:38px;
+	top:8px;
+	left:272px;
+}
+#oursListContainer .dataBarTitle
+{
+	left:86px;	
+}
+.uploaderBtn
+{
+	display:none;
+}
+.ui-overlay-a 
+{
+	background-image:none;
+}
+.ui-body-a
+{
+	background-image:none;
+}
+#yoursListContainer .dataBarTitle
+{
+	left:86px;	
+}
+@media only screen and (max-device-height:400px){
 .mainContainer
 {
 	margin-right:auto;
