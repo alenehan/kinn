@@ -1294,7 +1294,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebeeda', end
 }
 }
 /*smaller tablet*/
-@media only screen (max-width:609px) and (min-width:590px)
+@media only screen and (max-width:609px) and (min-width:590px)
 {
 .mainContainer
 {
@@ -1525,7 +1525,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebeeda', end
 .ui-body-a
 {
 	background-image:none;
-}7
+}
 }
 /* smallest */
 @media only screen and (max-device-width:575px){
