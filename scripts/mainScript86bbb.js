@@ -1524,6 +1524,7 @@ function attachHandlers(){
    //dan
                   },
                   success: function(data) {
+					 debugLog("Success of main sign in call");
                      var tester=$(data).find('status').text();
                      var patt=/ERROR/;
                      var patt2=/OK/;
@@ -1536,6 +1537,7 @@ function attachHandlers(){
                            refreshKinnreg4();
                         }else{
                            createAlertBox(tester.substring(10));
+						   debugLog("Error from server");
                         }
                      }
                      else if(patt2.test(tester)){
@@ -1547,6 +1549,7 @@ function attachHandlers(){
                         $('#signInForm').hide();
                         $('#signInDiv').hide();
                         $('#signInSuccess').show();
+						debugLog("Info is good");
                         getOurs();
                         getYours();
                         if(urlParams.title){
@@ -1557,6 +1560,7 @@ function attachHandlers(){
                   },
                   error: function(jqXHR, textStatus, errorThrown) {
                      createAlertBox("Network error. Please try again later." + "  " + errorThrown);
+					 debugLog("Main id call fails" + errorThrown);
                   },
                   complete: function(jqXHR, textStatus) {
                      //createAlertBox("Complete");
