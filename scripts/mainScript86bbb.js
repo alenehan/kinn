@@ -170,6 +170,7 @@ $(document).bind("mobileinit", function(){
   $.mobile.loadingMessageTextVisible=true;
 });
 $(document).ready(function(e) {
+	document.domain = "www.kinnective.com";
 	layout();
 	window.onerror = function(msg, url, linenumber) {
         //debugLog('Error message: '+msg+'\nURL: '+url+'\nLine Number: '+linenumber);
