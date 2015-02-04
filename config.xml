@@ -2,8 +2,8 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.kinnective.main"
-        versionCode = "10" 
-        version     = "1.0.7" >
+        versionCode = "11" 
+        version     = "1.1.0" >
     <name>Kinnective</name>
     <description>The bookmarks manager for your mobile, social world.</description>
     <author href="http://www.kinnective.com" email="ak@lenehan.org">Dan and Art Lenehan</author>
