@@ -231,7 +231,6 @@ $(document).ready(function(e) {
               var patt=/ERROR/;
               if(patt.test(tester)){
                  setTimeout(function(){sign();},1500);
-				 debugLog("the 47 call produces error");
               }
               else if(!patt.test(tester) && urlParams.title){
                  $('#username').val("");
@@ -1524,7 +1523,6 @@ function attachHandlers(){
    //dan
                   },
                   success: function(data) {
-					  debugLog("second call succeesds");
                      var tester=$(data).find('status').text();
                      var patt=/ERROR/;
                      var patt2=/OK/;
@@ -1557,7 +1555,6 @@ function attachHandlers(){
                      }
                   },
                   error: function(jqXHR, textStatus, errorThrown) {
-					  debugLog("Second call fails");
                      createAlertBox("Network error. Please try again later." + "  " + errorThrown);
                   },
                   complete: function(jqXHR, textStatus) {
@@ -3539,7 +3536,7 @@ function renderCopiesView(){
             $(conSt).scrollTop(posTop + 16);
    }
    function mom(){
-	   debugLog("mom" + diff)
+	   //debugLog("mom" + diff)
        var clip;
        if(diff<0){
            clip=(-3);
@@ -3563,7 +3560,7 @@ function postMouse(e){
       mousePosYNew=e.pageY;
       mousePosXNew=e.pageX;
       mousePos=e.pageY;
-	  debugLog(e.pageY);
+	  //debugLog(e.pageY);
 }
    function debugLog(stringVar){
     var thisPost=document.createElement("p");
