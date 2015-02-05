@@ -1525,6 +1525,7 @@ function attachHandlers(){
                   },
                   success: function(data) {
 					 debugLog("Success of main sign in call");
+					 alert("Success");
                      var tester=$(data).find('status').text();
                      var patt=/ERROR/;
                      var patt2=/OK/;
@@ -1559,6 +1560,7 @@ function attachHandlers(){
                      }
                   },
                   error: function(jqXHR, textStatus, errorThrown) {
+					  alert("Fail");
                      createAlertBox("Network error. Please try again later." + "  " + errorThrown);
 					 debugLog("Main id call fails" + errorThrown);
                   },
