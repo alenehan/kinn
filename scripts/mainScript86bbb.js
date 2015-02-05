@@ -171,9 +171,10 @@ $(document).bind("mobileinit", function(){
 });
 $(document).ready(function(e) {
 	document.domain = "www.kinnective.com";
+	jQuery.support.cors = true;
 	layout();
 	window.onerror = function(msg, url, linenumber) {
-        //debugLog('Error message: '+msg+'\nURL: '+url+'\nLine Number: '+linenumber);
+        debugLog('Error message: '+msg+'\nURL: '+url+'\nLine Number: '+linenumber);
         return true;
     }
     $.mobile.defaultPageTransition="none";
